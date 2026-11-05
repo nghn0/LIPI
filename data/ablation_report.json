@@ -1,0 +1,17 @@
+{
+  "note": "Same authored 40 cases; illustrative development ablation, not a held-out research claim. Function-word/code-switch rules active in both configurations.",
+  "results": [
+    {
+      "configuration": "neural + Hinglish policy",
+      "cases": 40,
+      "exact_matches": 29,
+      "cer": 0.0307
+    },
+    {
+      "configuration": "neural + frequency rescoring + Hinglish policy",
+      "cases": 40,
+      "exact_matches": 36,
+      "cer": 0.008
+    }
+  ]
+}

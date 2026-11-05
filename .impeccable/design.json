@@ -1,0 +1,283 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-05T17:57:27.917993+00:00",
+  "title": "Design System: Lipi",
+  "extensions": {
+    "shadows": [
+      {
+        "name": "studio",
+        "value": "0 4px 20px #35513c05",
+        "purpose": "Resting writing surface."
+      },
+      {
+        "name": "alternatives",
+        "value": "0 9px 28px #28452322",
+        "purpose": "Word-choice popover."
+      },
+      {
+        "name": "toast",
+        "value": "0 7px 24px #2f4b3422",
+        "purpose": "Saved-draft feedback."
+      }
+    ],
+    "motion": [
+      {
+        "name": "button",
+        "value": "0.16s",
+        "purpose": "Background, color and pressed transform transitions."
+      },
+      {
+        "name": "switch",
+        "value": "0.2s",
+        "purpose": "Track and thumb transition."
+      },
+      {
+        "name": "reduced-motion",
+        "value": "none",
+        "purpose": "Remove animations and transitions under prefers-reduced-motion."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "large",
+        "value": "1500px"
+      },
+      {
+        "name": "compact-desktop",
+        "value": "1100px"
+      },
+      {
+        "name": "icon-rail",
+        "value": "800px"
+      },
+      {
+        "name": "mobile",
+        "value": "540px"
+      }
+    ],
+    "colorMeta": {
+      "forest": {
+        "displayName": "Forest",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.05 155)",
+          "oklch(26% 0.05 155)",
+          "oklch(38% 0.05 155)",
+          "oklch(49% 0.05 155)",
+          "oklch(61% 0.05 155)",
+          "oklch(72% 0.05 155)",
+          "oklch(84% 0.05 155)",
+          "oklch(95% 0.05 155)"
+        ]
+      },
+      "primary": {
+        "displayName": "Action Green",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.06 150)",
+          "oklch(26% 0.06 150)",
+          "oklch(38% 0.06 150)",
+          "oklch(49% 0.06 150)",
+          "oklch(61% 0.06 150)",
+          "oklch(72% 0.06 150)",
+          "oklch(84% 0.06 150)",
+          "oklch(95% 0.06 150)"
+        ]
+      },
+      "primary-hover": {
+        "displayName": "Deep Action Green",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.06 150)",
+          "oklch(26% 0.06 150)",
+          "oklch(38% 0.06 150)",
+          "oklch(49% 0.06 150)",
+          "oklch(61% 0.06 150)",
+          "oklch(72% 0.06 150)",
+          "oklch(84% 0.06 150)",
+          "oklch(95% 0.06 150)"
+        ]
+      },
+      "text": {
+        "displayName": "Green Ink",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.025 160)",
+          "oklch(26% 0.025 160)",
+          "oklch(38% 0.025 160)",
+          "oklch(49% 0.025 160)",
+          "oklch(61% 0.025 160)",
+          "oklch(72% 0.025 160)",
+          "oklch(84% 0.025 160)",
+          "oklch(95% 0.025 160)"
+        ]
+      },
+      "canvas": {
+        "displayName": "Bright Canvas",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.005 145)",
+          "oklch(26% 0.005 145)",
+          "oklch(38% 0.005 145)",
+          "oklch(49% 0.005 145)",
+          "oklch(61% 0.005 145)",
+          "oklch(72% 0.005 145)",
+          "oklch(84% 0.005 145)",
+          "oklch(95% 0.005 145)"
+        ]
+      },
+      "surface": {
+        "displayName": "White Surface",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0 0)",
+          "oklch(26% 0 0)",
+          "oklch(38% 0 0)",
+          "oklch(49% 0 0)",
+          "oklch(61% 0 0)",
+          "oklch(72% 0 0)",
+          "oklch(84% 0 0)",
+          "oklch(95% 0 0)"
+        ]
+      },
+      "output": {
+        "displayName": "Pale Sage Output",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.008 130)",
+          "oklch(26% 0.008 130)",
+          "oklch(38% 0.008 130)",
+          "oklch(49% 0.008 130)",
+          "oklch(61% 0.008 130)",
+          "oklch(72% 0.008 130)",
+          "oklch(84% 0.008 130)",
+          "oklch(95% 0.008 130)"
+        ]
+      },
+      "border": {
+        "displayName": "Sage Border",
+        "role": "neutral",
+        "tonalRamp": [
+          "oklch(15% 0.012 145)",
+          "oklch(26% 0.012 145)",
+          "oklch(38% 0.012 145)",
+          "oklch(49% 0.012 145)",
+          "oklch(61% 0.012 145)",
+          "oklch(72% 0.012 145)",
+          "oklch(84% 0.012 145)",
+          "oklch(95% 0.012 145)"
+        ]
+      },
+      "navigation-active": {
+        "displayName": "Active Forest",
+        "role": "primary",
+        "tonalRamp": [
+          "oklch(15% 0.05 150)",
+          "oklch(26% 0.05 150)",
+          "oklch(38% 0.05 150)",
+          "oklch(49% 0.05 150)",
+          "oklch(61% 0.05 150)",
+          "oklch(72% 0.05 150)",
+          "oklch(84% 0.05 150)",
+          "oklch(95% 0.05 150)"
+        ]
+      },
+      "caution-bg": {
+        "displayName": "Warm Caution Surface",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.02 65)",
+          "oklch(26% 0.02 65)",
+          "oklch(38% 0.02 65)",
+          "oklch(49% 0.02 65)",
+          "oklch(61% 0.02 65)",
+          "oklch(72% 0.02 65)",
+          "oklch(84% 0.02 65)",
+          "oklch(95% 0.02 65)"
+        ]
+      },
+      "caution-text": {
+        "displayName": "Ochre Caution Ink",
+        "role": "secondary",
+        "tonalRamp": [
+          "oklch(15% 0.065 55)",
+          "oklch(26% 0.065 55)",
+          "oklch(38% 0.065 55)",
+          "oklch(49% 0.065 55)",
+          "oklch(61% 0.065 55)",
+          "oklch(72% 0.065 55)",
+          "oklch(84% 0.065 55)",
+          "oklch(95% 0.065 55)"
+        ]
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "description": "Primary Button as implemented in the writing studio.",
+      "html": "<button class=\"ds-primary\">Convert to Hindi</button>",
+      "css": ".ds-primary{font-family:\"Manrope Variable\",sans-serif;background:#254e38;color:#f4f8ed;border:1px solid #254e38;border-radius:7px;padding:13px 17px;font-size:11px;font-weight:650;transition:background .16s,transform .16s}.ds-primary:hover{background:#183b29}.ds-primary:active{transform:translateY(1px)}.ds-primary:focus-visible{outline:3px solid #87a28c;outline-offset:4px;}",
+      "refersTo": "button-primary"
+    },
+    {
+      "name": "Secondary Button",
+      "kind": "button",
+      "description": "Secondary Button as implemented in the writing studio.",
+      "html": "<button class=\"ds-secondary\">Save draft</button>",
+      "css": ".ds-secondary{font-family:\"Manrope Variable\",sans-serif;background:white;border:1px solid #dfe5d9;padding:10px 13px;border-radius:6px;font-size:11px;font-weight:550;color:#5d7252}.ds-secondary:hover{background:#eaf0e4;border-color:#b5c5a8}.ds-secondary:active{transform:translateY(1px)}.ds-secondary:focus-visible{outline:3px solid #87a28c;outline-offset:4px;}",
+      "refersTo": "button-secondary"
+    },
+    {
+      "name": "Writing Field",
+      "kind": "input",
+      "description": "Writing Field as implemented in the writing studio.",
+      "html": "<div class=\"ds-panel\"><textarea class=\"ds-editor\" aria-label=\"Roman Hindi\" placeholder=\"Type in Hinglish…\"></textarea></div>",
+      "css": ".ds-panel{background:white;padding:20px 23px}.ds-panel:focus-within{box-shadow:inset 0 0 0 2px #80987877}.ds-editor{font-family:\"Manrope Variable\",sans-serif;width:100%;min-height:163px;border:0;background:transparent;font-size:17px;line-height:1.95;color:#3c493b;resize:vertical}.ds-editor:focus-visible{outline:0}.ds-editor::placeholder{color:#63735d}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Navigation as implemented in the writing studio.",
+      "html": "<nav class=\"ds-nav\"><button class=\"ds-link\" aria-current=\"page\">Writing studio</button><button class=\"ds-link\">Evaluation lab</button></nav>",
+      "css": ".ds-nav{background:#183e31;padding:18px}.ds-link{font-family:\"Manrope Variable\",sans-serif;display:block;width:100%;text-align:left;border:0;background:transparent;color:#c1d1c7;padding:13px 15px;border-radius:7px;font-size:12px;margin-bottom:5px}.ds-link[aria-current]{background:#315644;color:#f9fbf6}.ds-link:hover{background:#294f3e}.ds-link:focus-visible{outline:3px solid #87a28c;outline-offset:4px;}"
+    },
+    {
+      "name": "Example Chip",
+      "kind": "chip",
+      "description": "Example Chip as implemented in the writing studio.",
+      "html": "<button class=\"ds-chip\">How are you?</button>",
+      "css": ".ds-chip{font-family:\"Manrope Variable\",sans-serif;border:1px solid #e0e6da;border-radius:20px;padding:7px 12px;background:#fbfcf9;color:#798970;font-size:10px}.ds-chip:hover{background:#eaf0e3;border-color:#b7c5aa}.ds-chip:active{transform:translateY(1px)}.ds-chip:focus-visible{outline:3px solid #87a28c;outline-offset:4px;}"
+    },
+    {
+      "name": "Studio Surface",
+      "kind": "card",
+      "description": "Studio Surface as implemented in the writing studio.",
+      "html": "<section class=\"ds-studio\"><div class=\"ds-source\">Roman Hindi</div><div class=\"ds-output\" lang=\"hi\">हिन्दी</div></section>",
+      "css": ".ds-studio{font-family:\"Manrope Variable\",sans-serif;display:grid;grid-template-columns:1fr 1fr;background:white;border:1px solid #dce4da;border-radius:12px;overflow:hidden;box-shadow:0 4px 20px #35513c05}.ds-source,.ds-output{padding:20px 23px;min-height:100px}.ds-output{background:#fafcf8;border-left:1px solid var(--line,#e2e8e2);font-family:\"Noto Sans Devanagari\",sans-serif;font-size:20px;line-height:2.05;color:#3a5336}",
+      "refersTo": "studio"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Bilingual Writing Studio",
+    "overview": "An everyday bilingual writing studio. The user's words are the focal point. A forest-green navigation rail, white writing surface and pale sage output distinguish working areas without decorative imagery. A type specimen pairs a Roman a with Devanagari अ.\n\nThe bright canvas serves laptop use in classroom light. Quiet borders and restrained depth keep writing, inference state and inspectable results legible.",
+    "keyCharacteristics": [
+      "Forest navigation anchors a bright workspace.",
+      "Roman and Devanagari text have dedicated self-hosted fonts.",
+      "Working surfaces distinguish input, output and generated revision."
+    ],
+    "rules": [],
+    "dos": [
+      "Do preserve the white input and pale sage output distinction.",
+      "Do use Noto Sans Devanagari for Hindi working text.",
+      "Do keep inference status, generated revisions and evaluation results explicit.",
+      "Do retain keyboard focus and reduced-motion behavior."
+    ],
+    "donts": [
+      "Don't use decorative imagery in place of the bilingual type specimen.",
+      "Don't silently replace original output with a generated revision.",
+      "Don't present unavailable models or unrun evaluation as successful results."
+    ]
+  }
+}

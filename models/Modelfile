@@ -1,0 +1,10 @@
+FROM ./Param-1-2.9B-Instruct-Q4_K_M.gguf
+TEMPLATE """{{- range .Messages }}<|im_start|>{{ .Role }}
+{{ .Content }}<|im_end|>
+{{ end }}<|im_start|>assistant
+"""
+PARAMETER stop <|im_end|>
+PARAMETER stop <|im_start|>
+PARAMETER temperature 0
+PARAMETER num_ctx 2048
+PARAMETER num_predict 384

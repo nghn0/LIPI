@@ -1,0 +1,50 @@
+{
+  "created_at": "2026-11-05T17:53:37Z",
+  "note": "Real local generation smoke outputs. Successful inference is not a human quality rating. Review grammar and meaning.",
+  "results": [
+    {
+      "id": "G01",
+      "input": "मुझे कल की meeting के लिए अपने project की report तैयार करनी है।",
+      "task": "polish",
+      "tone": "formal",
+      "output": "मुझे कल की बैठक के लिए अपनी परियोजना रिपोर्ट तैयार करना होगा।",
+      "model": "BharatGen Param-1 2.9B Instruct (Q4_K_M)",
+      "tokens_generated": 17,
+      "latency_ms": 407.2,
+      "review_note": "AI-generated wording. Check names, numbers and meaning before using."
+    },
+    {
+      "id": "G02",
+      "input": "आप कैसे हैं? बहुत दिन बाद बात हुई।",
+      "task": "polish",
+      "tone": "friendly",
+      "output": "आप कैसे हैं? बहुत समय बाद बातचीत की है।",
+      "model": "BharatGen Param-1 2.9B Instruct (Q4_K_M)",
+      "tokens_generated": 15,
+      "latency_ms": 320.8,
+      "review_note": "AI-generated wording. Check names, numbers and meaning before using."
+    },
+    {
+      "id": "G03",
+      "input": "नमस्ते! मुझे कल की meeting के लिए अपने project की report तैयार करनी है.",
+      "task": "translate",
+      "tone": "natural",
+      "output": "Hello! I have to prepare the report of my project for tomorrow's meeting.",
+      "model": "BharatGen Param-1 2.9B Instruct (Q4_K_M)",
+      "tokens_generated": 18,
+      "latency_ms": 386.6,
+      "review_note": "AI-generated wording. Check names, numbers and meaning before using."
+    },
+    {
+      "id": "G04",
+      "input": "राहुल सोमवार को सुबह 10:30 बजे आएगा।",
+      "task": "translate",
+      "tone": "natural",
+      "output": "Rahul will arrive at 10:30 AM on Monday.",
+      "model": "BharatGen Param-1 2.9B Instruct (Q4_K_M)",
+      "tokens_generated": 16,
+      "latency_ms": 303.1,
+      "review_note": "AI-generated wording. Check names, numbers and meaning before using."
+    }
+  ]
+}

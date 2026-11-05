@@ -1,0 +1,282 @@
+[
+  {
+    "id": "T01",
+    "category": "everyday",
+    "input": "namaste",
+    "expected": "नमस्ते",
+    "preserve_english": true
+  },
+  {
+    "id": "T02",
+    "category": "everyday",
+    "input": "aap kaise hain?",
+    "expected": "आप कैसे हैं?",
+    "preserve_english": true
+  },
+  {
+    "id": "T03",
+    "category": "everyday",
+    "input": "mujhe paani chahiye.",
+    "expected": "मुझे पानी चाहिए.",
+    "preserve_english": true
+  },
+  {
+    "id": "T04",
+    "category": "everyday",
+    "input": "mera naam rahul hai.",
+    "expected": "मेरा नाम राहुल है.",
+    "preserve_english": true
+  },
+  {
+    "id": "T05",
+    "category": "everyday",
+    "input": "hum ghar ja rahe hain.",
+    "expected": "हम घर जा रहे हैं.",
+    "preserve_english": true
+  },
+  {
+    "id": "T06",
+    "category": "everyday",
+    "input": "kal subah milte hain.",
+    "expected": "कल सुबह मिलते हैं.",
+    "preserve_english": true
+  },
+  {
+    "id": "T07",
+    "category": "everyday",
+    "input": "aaj mausam achha hai.",
+    "expected": "आज मौसम अच्छा है.",
+    "preserve_english": true
+  },
+  {
+    "id": "T08",
+    "category": "everyday",
+    "input": "bahut dhanyavaad!",
+    "expected": "बहुत धन्यवाद!",
+    "preserve_english": true
+  },
+  {
+    "id": "T09",
+    "category": "everyday",
+    "input": "aap kahan rehte hain?",
+    "expected": "आप कहाँ रहते हैं?",
+    "preserve_english": true
+  },
+  {
+    "id": "T10",
+    "category": "everyday",
+    "input": "mujhe hindi pasand hai.",
+    "expected": "मुझे hindi पसंद है.",
+    "preserve_english": true
+  },
+  {
+    "id": "T11",
+    "category": "campus",
+    "input": "mujhe padhai karni hai.",
+    "expected": "मुझे पढ़ाई करनी है.",
+    "preserve_english": true
+  },
+  {
+    "id": "T12",
+    "category": "campus",
+    "input": "kal exam hai.",
+    "expected": "कल exam है.",
+    "preserve_english": true
+  },
+  {
+    "id": "T13",
+    "category": "campus",
+    "input": "apna assignment submit karo.",
+    "expected": "अपना assignment submit करो.",
+    "preserve_english": true
+  },
+  {
+    "id": "T14",
+    "category": "campus",
+    "input": "project ki deadline somvaar hai.",
+    "expected": "project की deadline सोमवार है.",
+    "preserve_english": true
+  },
+  {
+    "id": "T15",
+    "category": "campus",
+    "input": "kripya notes bhej dijiye.",
+    "expected": "कृपया notes भेज दीजिए.",
+    "preserve_english": true
+  },
+  {
+    "id": "T16",
+    "category": "campus",
+    "input": "hamari class subah hai.",
+    "expected": "हमारी class सुबह है.",
+    "preserve_english": true
+  },
+  {
+    "id": "T17",
+    "category": "campus",
+    "input": "mujhe chhutti chahiye.",
+    "expected": "मुझे छुट्टी चाहिए.",
+    "preserve_english": true
+  },
+  {
+    "id": "T18",
+    "category": "campus",
+    "input": "aap ka feedback chahiye.",
+    "expected": "आप का feedback चाहिए.",
+    "preserve_english": true
+  },
+  {
+    "id": "T19",
+    "category": "spelling variants",
+    "input": "mai ghar par hu.",
+    "expected": "मैं घर पर हूँ.",
+    "preserve_english": true
+  },
+  {
+    "id": "T20",
+    "category": "spelling variants",
+    "input": "main ghar par hoon.",
+    "expected": "मैं घर पर हूँ.",
+    "preserve_english": true
+  },
+  {
+    "id": "T21",
+    "category": "spelling variants",
+    "input": "mujhe nahi pata.",
+    "expected": "मुझे नहीं पता.",
+    "preserve_english": true
+  },
+  {
+    "id": "T22",
+    "category": "spelling variants",
+    "input": "mujhe nahin pata.",
+    "expected": "मुझे नहीं पता.",
+    "preserve_english": true
+  },
+  {
+    "id": "T23",
+    "category": "spelling variants",
+    "input": "yeh meri kitaab hai.",
+    "expected": "यह मेरी किताब है.",
+    "preserve_english": true
+  },
+  {
+    "id": "T24",
+    "category": "spelling variants",
+    "input": "woh mera dost hai.",
+    "expected": "वह मेरा दोस्त है.",
+    "preserve_english": true
+  },
+  {
+    "id": "T25",
+    "category": "code switching",
+    "input": "meeting ke liye taiyaar ho?",
+    "expected": "meeting के लिए तैयार हो?",
+    "preserve_english": true
+  },
+  {
+    "id": "T26",
+    "category": "code switching",
+    "input": "apna email check karo.",
+    "expected": "अपना email चेक करो.",
+    "preserve_english": true
+  },
+  {
+    "id": "T27",
+    "category": "code switching",
+    "input": "python mein code likho.",
+    "expected": "python में code लिखो.",
+    "preserve_english": true
+  },
+  {
+    "id": "T28",
+    "category": "code switching",
+    "input": "online class kab hai?",
+    "expected": "online class कब है?",
+    "preserve_english": true
+  },
+  {
+    "id": "T29",
+    "category": "code switching",
+    "input": "report upload kar do.",
+    "expected": "report upload कर दो.",
+    "preserve_english": true
+  },
+  {
+    "id": "T30",
+    "category": "code switching",
+    "input": "laptop ki battery khatam hai.",
+    "expected": "laptop की बैटरी खत्म है.",
+    "preserve_english": true
+  },
+  {
+    "id": "T31",
+    "category": "named entities",
+    "input": "rahul aur priya",
+    "expected": "राहुल और प्रिया",
+    "preserve_english": true
+  },
+  {
+    "id": "T32",
+    "category": "named entities",
+    "input": "bharat hamara desh hai.",
+    "expected": "भारत हमारा देश है.",
+    "preserve_english": true
+  },
+  {
+    "id": "T33",
+    "category": "named entities",
+    "input": "dilli se mumbai",
+    "expected": "दिल्ली से मुंबई",
+    "preserve_english": true
+  },
+  {
+    "id": "T34",
+    "category": "named entities",
+    "input": "bengaluru mein rehta hoon.",
+    "expected": "बेंगलुरु में रहता हूँ.",
+    "preserve_english": true
+  },
+  {
+    "id": "T35",
+    "category": "protected content",
+    "input": "kal 10:30 baje milte hain.",
+    "expected": "कल 10:30 बजे मिलते हैं.",
+    "preserve_english": true
+  },
+  {
+    "id": "T36",
+    "category": "protected content",
+    "input": "email: student@example.com",
+    "expected": "email: student@example.com",
+    "preserve_english": true
+  },
+  {
+    "id": "T37",
+    "category": "protected content",
+    "input": "https://example.com/forms?year=2026",
+    "expected": "https://example.com/forms?year=2026",
+    "preserve_english": true
+  },
+  {
+    "id": "T38",
+    "category": "protected content",
+    "input": "@rahul #campus2026",
+    "expected": "@rahul #campus2026",
+    "preserve_english": true
+  },
+  {
+    "id": "T39",
+    "category": "protected content",
+    "input": "नमस्ते! aap kaise hain?",
+    "expected": "नमस्ते! आप कैसे हैं?",
+    "preserve_english": true
+  },
+  {
+    "id": "T40",
+    "category": "protected content",
+    "input": "namaste!\nphir milenge.",
+    "expected": "नमस्ते!\nफिर मिलेंगे.",
+    "preserve_english": true
+  }
+]

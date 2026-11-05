@@ -1,0 +1,14 @@
+{
+  "indicxlit_source": "https://github.com/AI4Bharat/IndicXlit/releases/tag/v1.0",
+  "param_source": "https://huggingface.co/bharatgenai/Param-1-2.9B-Instruct",
+  "gguf_source": "arunmcops/Param-1-2.9B-Instruct-GGUF",
+  "gguf_revision": "36bfaad11e8c494d982517f48e004de641def42f",
+  "word_priors": "First 250,000 Hindi entries from official word_prob_dicts.zip",
+  "sha256": {
+    "indicxlit.zip": "31dabc448c14dfac03015763d35cc4c895d8ee2b831fe23c64a5c5aea4f169ca",
+    "indicxlit-weights.pt": "245f0bd6c2f8f36e6f8b3abf0027a15ab5de8197435f135436e0de3482426fff",
+    "hi-word-priors.json": "e4e8da21e14276b33a85ab3f203dd01dc2a1f127ab457e9191be46259877700c",
+    "word_prob_dicts.zip": "f88a388e248d9c73a17f9c167a22108ea79726b0ef05968e450e5692e3308d04",
+    "Param-1-2.9B-Instruct-Q4_K_M.gguf": "11bbaa8d5c6d6d7c6ec64947f5a4b5bb29ecebe6642a10ecd42404039ece23c0"
+  }
+}
